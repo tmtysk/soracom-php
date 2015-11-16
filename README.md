@@ -16,6 +16,6 @@ $c = new CU\Soracom\Client();
 // list subscribers.
 $c->subscribers();
 
-// register subscribers.
-$c->registerSubscriber(['imsi' => 'XXXXXXXXXXXXXXXXXX', 'registrationSecret' => 'XXXXX']
+// register subscriber.
+$c->registerSubscriber(['imsi' => 'XXXXXXXXXXXXXXXXXX', 'registrationSecret' => 'XXXXX']);
 ```
