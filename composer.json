@@ -1,0 +1,13 @@
+{
+  "name": "cu/soracom",
+  "require": {
+    "guzzlehttp/guzzle": "6.1.0",
+    "monolog/monolog": "1.17"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-0": {
+      "CU": "lib/"
+    }
+  }
+}
